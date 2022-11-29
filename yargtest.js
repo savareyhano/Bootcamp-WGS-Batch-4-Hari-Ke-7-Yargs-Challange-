@@ -27,7 +27,7 @@ yargs.command({
             email:argv.email,
             mobile:argv.mobile,
         };
-        yargfunct.save(contact);
+        yargfunct.save(argv.name, argv.email, argv.mobile);
     },
 });
 
